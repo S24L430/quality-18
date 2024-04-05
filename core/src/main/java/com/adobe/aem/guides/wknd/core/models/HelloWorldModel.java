@@ -47,7 +47,7 @@ public class HelloWorldModel {
     private ResourceResolver resourceResolver;
 
     private String message;
-    public static final String PASSWORD = "passwd";
+
     @PostConstruct
     protected void init() {
         PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
